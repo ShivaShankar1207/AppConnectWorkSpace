@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="EmailServer" policyName="Policy_mng" policyTemplate="EmailServer">
+    <emailServer></emailServer>
+    <securityIdentity></securityIdentity>
+    <emailConnectionTimeout>0</emailConnectionTimeout>
+    <emailReadTimeout>0</emailReadTimeout>
+    <emailConnectionIdleTimeout>0</emailConnectionIdleTimeout>
+  </policy>
+</policies>

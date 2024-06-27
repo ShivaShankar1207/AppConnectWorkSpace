@@ -1,0 +1,7 @@
+DECLARE ns NAMESPACE 'http://www.example.org/NewWSDLFile/';
+
+
+CREATE COMPUTE MODULE SOAP_API_Proxy_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN 
+		set OutputRoot.SOAP.Body.ns:NewOperationResponse.out='jkh';
+END MODULE;
